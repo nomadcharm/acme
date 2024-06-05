@@ -45,8 +45,9 @@
 			font-family: "Poppins", sans-serif;
 			text-align: center;
 			color: #182e4b;
-			background-color: #fff;
+			background-color: #ffffff;
 			background-image: url('https://github.com/nomadcharm/acme/blob/main/img/main-bg.png?raw=true');
+			background-size: cover;
 			box-shadow: 0 0 25px rgba(0, 0, 0, 0.15)
 		}
 
@@ -56,13 +57,13 @@
 		}
 
 		.td-525 {
-			width: 525px;
+			max-width: 525px;
 			text-align: center;
 		}
 
 		.td-525.first {
 			padding-bottom: 50px;
-			background-color: #fff;
+			background-color: #ffffff;
 			background-image: url('https://github.com/nomadcharm/acme/blob/main/img/green-bg.png?raw=true');
 			background-position: center;
 			background-repeat: no-repeat;
@@ -72,15 +73,15 @@
 			font-size: 9px;
 			font-weight: 700;
 			text-decoration: none;
-			color: #182E4B;
+			color: #182e4b;
 		}
 
 		.links-wrapper a:not(:last-child) {
-			margin-right: 42px;
+			margin-right: 18px;
 		}
 
 		.header-text {
-			padding: 0 60px;
+			padding: 0 40px;
 			font-size: 10.7px;
 			font-weight: 500;
 			color: #274c7d;
@@ -94,8 +95,7 @@
 
 		.td-525.third {
 			padding-top: 45px;
-			padding-bottom: 28px;
-			background-color: #fff;
+			background-color: #ffffff;
 			background-image: url('https://github.com/nomadcharm/acme/blob/main/img/pink-bg-1.png?raw=true');
 			background-position: top;
 			background-repeat: no-repeat;
@@ -112,6 +112,10 @@
 			padding: 0 10px 0;
 			width: 100%;
 			max-width: 260px;
+		}
+
+		.two-columns.first .column {
+			width: auto;
 		}
 
 		.column h3 {
@@ -137,7 +141,7 @@
 		.td-525.last {
 			padding-top: 40px;
 			padding-bottom: 40px;
-			background-color: #ffe9da;
+			background-color:#ffe9da;
 			background-image: url('https://github.com/nomadcharm/acme/blob/main/img/pink-bg-2.png?raw=true');
 			background-position: top;
 			background-repeat: no-repeat;
@@ -155,38 +159,8 @@
 			font-size: 11px;
 			font-weight: 500;
 			text-decoration: none;
-			color: #fff;
+			color: #ffffff;
 			background-color: #182e4b;
-		}
-
-		@media (max-width: 380px) {
-			.wrapper {
-				width: 100% !important;
-			}
-
-			.main {
-				max-width: 380px !important;
-			}
-
-			.two-columns .column {
-				padding-bottom: 20px !important;
-			}
-
-			.two-columns.first .column:first-child {
-				display: none;
-			}
-
-			.td-525 {
-				width: 380px !important;
-			}
-
-			.links-wrapper {
-				display: none !important;
-			}
-
-			.td-525.last {
-				background-color: #ffd5b9 !important;
-			}
 		}
 	</style>
 </head>
@@ -194,14 +168,13 @@
 <body>
 
 	<center class="wrapper">
-
 		<table class="main" width="100%">
 			<div style="font-size:0px;opacity:0;visibility:hidden;width:0;height:0;display:none;">
 				Fresh and healthy food from our garden directly to your kitchen.
 			</div>
 			<tr>
 				<td>
-					<table class="main-inner">
+					<table class="main-inner" width="100%">
 						<!-- green header -->
 						<tr>
 							<td class="td-525 first">
@@ -240,14 +213,13 @@
 								</table>
 							</td>
 						</tr>
-
 						<!-- coupon -->
 						<tr>
-							<td width="100%" style="background-color: #fff;">
+							<td width="100%" style="background-color: #ffffff;">
 								<table class="td-525 second">
 									<tr>
 										<td class="two-columns first">
-											<table class="column" style="padding: 0 10px 0 104px;">
+											<table class="column" style="padding: 0 20px 0 104px;">
 												<tr>
 													<td>
 														<img src="https://github.com/nomadcharm/acme/blob/main/img/coupon.png?raw=true" alt="Coupon"
@@ -257,7 +229,7 @@
 											</table>
 											<table class="column">
 												<tr>
-													<td style="padding-top: 20px; text-align: left;">
+													<td style="padding: 20px 0; text-align: left;">
 														<p style="width: 228px; font-size: 12px; color: #364150;">
 															Use code <span style="color: #10a480">1234</span> on checkout to receive <span
 																style="color: #10a480">5% off</span> on your first purchase.
@@ -270,7 +242,6 @@
 								</table>
 							</td>
 						</tr>
-
 						<!-- fresh food -->
 						<tr>
 							<td class="td-525 third">
@@ -283,7 +254,7 @@
 											</a>
 										</td>
 									</tr>
-									<tr>
+									<tr style="background-color: #ffe9da;">
 										<td class="two-columns second">
 											<table class="column">
 												<tr>
@@ -319,7 +290,7 @@
 												</tr>
 												<tr>
 													<td>
-														<h3>Tropical fruits</h3>
+														<h3>Fresh Grapes</h3>
 													</td>
 												</tr>
 												<tr>
@@ -343,7 +314,7 @@
 						<!-- new spices -->
 						<tr>
 							<td>
-								<table class="td-525 last">
+								<table class="td-525 last" width=100%>
 									<tr>
 										<td class="two-columns last">
 											<table class="column">
@@ -354,7 +325,7 @@
 													</td>
 												</tr>
 											</table>
-											<table class="column" style="padding: 32px 10px 10px 65px;">
+											<table class="column" style="padding: 64px 10px 10px 64px;">
 												<tr>
 													<td>
 														<img src="https://github.com/nomadcharm/acme/blob/main/img/new-spices.png?raw=true"
@@ -401,7 +372,7 @@
 												<img src="https://github.com/nomadcharm/acme/blob/main/img/mail.png?raw=true" alt="mail"
 													width="33">
 											</a>
-											<p style="padding-top: 24px; font-size: 12px; color: #fff;">
+											<p style="padding-top: 24px; font-size: 12px; color: #ffffff;">
 												Sent from Acme
 											</p>
 										</td>
@@ -409,14 +380,10 @@
 								</table>
 							</td>
 						</tr>
-
 					</table>
 				</td>
 			</tr>
-
-
 		</table>
-
 	</center>
 
 </body>
