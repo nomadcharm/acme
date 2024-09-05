@@ -4,10 +4,10 @@
 Acme is an adaptive HTML markup for email letters. This layout has been tested to ensure correct display across various email clients, including Google Mail, Yandex Mail, and Outlook.
 
 #### Desktop view:
-![Desktop view](https://raw.githubusercontent.com/nomadcharm/my-gallery/main/acme-desktop-screen.png?token=GHSAT0AAAAAACXBOL2EXEKKXYG3YWABWFTUZWY5N3Q)
+![Desktop view](https://github.com/nomadcharm/acme/blob/main/img/acme-desktop-screen.png)
 
 #### Mobile view:
-![Mobile view](https://raw.githubusercontent.com/nomadcharm/my-gallery/main/acme-mobile-screen.jpg?token=GHSAT0AAAAAACXBOL2F6RFBM6Y2UNGVU2FAZWY5OJA)
+![Mobile view](https://github.com/nomadcharm/acme/blob/main/img/acme-mobile-screen.jpg)
 
 Design by [SmartMail][1]
 
