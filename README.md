@@ -1,7 +1,12 @@
 # acme ✉️
-Адаптивная HTML-вёрстка email-письма. Верстка проверена на корректное отображение в разных почтовых сервисах, включая GoogleMail, YandexMail и Outlook.
+Адаптивная HTML-вёрстка email-письма. 
 
-Acme is an adaptive HTML markup for email letters. This layout has been tested to ensure correct display across various email clients, including Google Mail, Yandex Mail, and Outlook.
+### 🔬 Тестирование:
+Верстка проверена на корректное отображение в разных почтовых сервисах:.
+- GoogleMail (Desktop & Android)
+- YandexMail (desktop & Android)
+- Outlook (Desktop & Android)
+- Mail.ru (Desktop & Android)
 
 #### Desktop view:
 ![Desktop view](https://github.com/nomadcharm/acme/blob/main/img/acme-desktop-screen.png)
