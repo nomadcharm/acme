@@ -4,7 +4,7 @@
 ### 🔬 Тестирование:
 Верстка проверена на корректное отображение в разных почтовых сервисах:.
 - GoogleMail (Desktop & Android)
-- YandexMail (desktop & Android)
+- YandexMail (Desktop & Android)
 - Outlook (Desktop & Android)
 - Mail.ru (Desktop & Android)
 
